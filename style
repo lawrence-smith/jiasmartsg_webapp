@@ -1,0 +1,71 @@
+body {
+  font-family: Arial, sans-serif;
+  background: #f9f9f9;
+  margin: 0;
+  padding: 0;
+}
+.container {
+  max-width: 800px;
+  margin: 40px auto;
+  padding: 20px;
+  background: #fff;
+  border-radius: 12px;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.05);
+}
+h1, h2, h3, h4 {
+  color: #333;
+}
+.device-table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 16px;
+}
+.device-table th, .device-table td {
+  border: 1px solid #ddd;
+  padding: 12px;
+  text-align: left;
+}
+.device-table th {
+  background-color: #f2f2f2;
+}
+.total {
+  font-weight: bold;
+  font-size: 1.2em;
+  margin-top: 16px;
+}
+.setup-tips {
+  background: #f1f7ff;
+  padding: 16px;
+  border-left: 4px solid #007bff;
+  margin-top: 24px;
+  border-radius: 6px;
+}
+a {
+  display: inline-block;
+  margin-top: 24px;
+  text-decoration: none;
+  color: #007bff;
+}
+.card-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 20px;
+  margin-top: 30px;
+}
+.card {
+  background: #fff;
+  border-radius: 12px;
+  padding: 16px;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.05);
+  transition: 0.2s;
+}
+.card:hover {
+  transform: translateY(-4px);
+}
+.card h3 {
+  margin-top: 0;
+}
+.card a {
+  color: #007bff;
+  text-decoration: none;
+}
