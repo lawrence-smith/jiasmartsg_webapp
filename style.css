@@ -1,0 +1,66 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f9f9f9;
+  color: #333;
+  margin: 0;
+  padding: 20px;
+}
+.container {
+  max-width: 960px;
+  margin: auto;
+}
+h1 {
+  text-align: center;
+  margin-bottom: 30px;
+}
+.card-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  gap: 20px;
+}
+.card {
+  text-decoration: none;
+  color: inherit;
+  background: #fff;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+  cursor: pointer;
+  transition: transform 0.2s;
+}
+.card:hover {
+  transform: scale(1.03);
+}
+.scenario-content {
+  background: #fff;
+  margin-top: 40px;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+}
+.scenario-content h2 {
+  margin-top: 0;
+}
+.device-table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 20px;
+}
+.device-table th, .device-table td {
+  border: 1px solid #ddd;
+  padding: 10px;
+}
+.device-table th {
+  background-color: #f0f0f0;
+}
+.total {
+  font-weight: bold;
+  margin-top: 20px;
+}
+.setup-tips {
+  margin-top: 20px;
+}
+.setup-tips ul {
+  list-style-type: disc;
+  padding-left: 20px;
+}
